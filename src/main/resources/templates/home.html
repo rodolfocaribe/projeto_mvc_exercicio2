@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Wild & Wacky Vegetables</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- adicionar o link para o bootstrap aqui -->
-    </head>
+<head>
+    <meta charset="utf-8">
+    <title>Wild & Wacky Vegetables</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- adicionar o link para o bootstrap aqui -->
+</head>
 
-    <body>
-
+<body class="container">
+<div class="row">
+    <div class="col-3">
         <h1>Some Favorites</h1>
-        <ul>
+        <ul class="list-unstyled">
             <li><a href="#">Celery Root</a></li>
             <li><a href="#">Spaghetti Squash</a></li>
             <li><a href="#">Killer Mushrooms</a></li>
         </ul>
+        <input class="input-form" type="text">
+        <input class="btn btn-primary" type="button" value="Search Recipies">
+    </div>
 
+    <div class="col-9">
         <h1>Wild & Wacky Vegetables</h1>
         <p>Kale courgette salsify mustard broccoli seakale wakame potato fava bean tigernut leek celery
             spinach avocado cabbage celtuce rutabaga kohlrabi. Parsnip pea soko groundnut bitterleaf spring
@@ -30,6 +37,17 @@
             kombu beet greens cauliflower summer purslane. Artichoke daikon horseradish arugula taro catsear
             kombu rock melon pea sprouts collard greens mustard courgette lettuce soko maize plantain.
         </p>
+    </div>
+</div>
 
-    </body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
 </html>
